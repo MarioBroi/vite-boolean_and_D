@@ -1,5 +1,5 @@
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import { RouterView } from "vue-router";
 
 export default {
   name: 'App',
@@ -10,7 +10,9 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div class="container">
+
+    <RouterView />
 
   </div>
 
