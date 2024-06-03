@@ -1,7 +1,4 @@
-# Vue 3 + Vite
-
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+# Boolean and Dragons
+## -- Work in progress --
+We hare finaly creating the front-end part of the game Boolean and Dragons.
+Our goal in this part of the exercise is tho show all the different characters, items and types of our application to the user, giving a simple and intuitive user experience.
