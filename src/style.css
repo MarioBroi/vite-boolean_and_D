@@ -1,0 +1,112 @@
+:root {
+    --bnd-dark: #0d1321;
+    --bnd-light: #dccaa9;
+    --bnd-light-50: #dccaa985;
+    --bnd-primary: #3d2005;
+    --bnd-secondary: #a8570c;
+    --bnd-danger: #8f0404;
+    --bnd-gradient-start: #050811;
+    --bnd-gradient-end: #340001;
+}
+
+/* #region Common */
+
+body {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.home-text {
+    color: var(--bnd-light);
+    text-shadow: 2px 2px 5px var(--bnd-primary);
+}
+
+/* #endregion Common */
+
+/* #region Home-Title */
+.title-bg {
+    background-image: url(/img/welcome-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+/* #endregion Home-Title */
+
+/* #region Home-Adventure */
+.start-adventure {
+    background-color: var(--bnd-light-50);
+
+    .start-today {
+        color: var(--bnd-danger);
+        text-shadow: 2px 2px 5px var(--bnd-dark);
+    }
+
+    .create-button:hover {
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 20px;
+        color: var(--bnd-secondary);
+        transform: rotate(360deg);
+        transition: 0.5s;
+    }
+}
+
+/* #endregion Home-Adventure */
+
+/* #region Home-Inside-Waves */
+.wave {
+    color: var(--bnd-gradient-start);
+    background-color: var(--bnd-light-50);
+}
+
+.back-gradient {
+    background-image: linear-gradient(to top, var(--bnd-gradient-end) 0%, var(--bnd-gradient-start) 100%);
+}
+
+.wave-reverse {
+    transform: rotate(3.142rad);
+    margin: -0.1rem auto -0.1rem;
+    color: var(--bnd-gradient-end);
+    background-color: var(--bnd-dark);
+}
+
+/* endregion Home-Inside-Waves */
+
+/* #region Header */
+.site-header {
+    background-image: url("/img/header/nav_bg.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+
+    .logo {
+        width: 70px;
+    }
+
+    .header-text {
+        color: var(--bnd-light);
+        text-decoration: none;
+        text-shadow: 2px 2px 5px var(--bnd-primary);
+    }
+
+    .header-text:hover {
+        color: var(--bnd-secondary);
+        transition: 0.2s;
+    }
+
+}
+
+/* #endregion Header */
+
+/* #region Footer */
+.site-footer {
+    background-color: var(--bnd-dark);
+
+    a,
+    p {
+        color: var(--bnd-light);
+        text-shadow: 2px 2px 5px var(--bnd-light-50);
+    }
+}
+
+/* #endregion Footer */
