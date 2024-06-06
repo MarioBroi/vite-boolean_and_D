@@ -43,7 +43,7 @@ export default {
                 </p>
                 <div class="col-6 p-5 m-auto create-button">
                     <a href="" class="justify-center align-items-center text-decoration-none text-reset">
-                        <img src="../../public/img/dragon-icon.png" alt="dragon image" width="80%">
+                        <img src="../../img/dragon-icon.png" alt="dragon image" width="80%">
                         <p class="text-center fs-2 pt-5 fw-bold">
                             Create Your Items Here
                             <i class="fa-solid fa-gavel"></i>
@@ -53,7 +53,7 @@ export default {
                 <!-- /.col -->
                 <div class="col-6 p-5 m-auto create-button">
                     <a href="" class="justify-center align-items-center text-decoration-none text-reset">
-                        <img src="../../public/img/sword-icon.png" alt="dragon image" width="80%">
+                        <img src="../../img/sword-icon.png" alt="dragon image" width="80%">
                         <p class="text-center fs-2 pt-5 fw-bold">
                             Create Your Character Here
                             <i class="fa-solid fa-gavel"></i>
